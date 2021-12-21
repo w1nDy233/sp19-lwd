@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="algs4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../sp18-lwd/javalib/algs4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../sp18-lwd/javalib/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../sp18-lwd/javalib/jh61b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../sp18-lwd/javalib/junit-4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../sp18-lwd/javalib/junit-4.13.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../sp18-lwd/javalib/stdlib-package.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../sp18-lwd/javalib/stdlib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../sp18-lwd/javalib/xchart-3.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../sp18-lwd/javalib/algs4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../sp18-lwd/javalib/jh61b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../sp18-lwd/javalib/stdlib-package.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../sp18-lwd/javalib/stdlib.jar!/" />
+    </SOURCES>
+  </library>
+</component>

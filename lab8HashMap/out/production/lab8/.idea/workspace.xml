@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dcdb8419-2ed9-4050-8274-d89acfc3cd51" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../lab7/BSTMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/BSTMap2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/SeparateChainingHashST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/SeqSearchST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab7/InsertInOrderSpeedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7/InsertInOrderSpeedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab7/InsertRandomSpeedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7/InsertRandomSpeedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab7/Map61B.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7/Map61B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map61B.java" beforeDir="false" afterPath="$PROJECT_DIR$/Map61B.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="22aQsIY8MLpdSFKesijUNrjG3EG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.MyHashMap">
+    <configuration name="MyHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyHashMap" />
+      <module name="lab8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo" />
+      <module name="lab8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyHashMap" />
+        <item itemvalue="Application.demo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dcdb8419-2ed9-4050-8274-d89acfc3cd51" name="Changes" comment="" />
+      <created>1640073422906</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640073422906</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
