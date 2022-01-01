@@ -1,7 +1,5 @@
 import java.util.List;
-
 public interface TrieSet61B {
-
     /** Clears all items out of Trie */
     void clear();
 
@@ -19,5 +17,4 @@ public interface TrieSet61B {
      * UnsupportedOperationException.
      */
     String longestPrefixOf(String key);
-
 }

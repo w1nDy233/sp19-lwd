@@ -28,7 +28,6 @@ public class TestJankyOomage {
         }
 
     }
-
     /** After you've written haveNiceHashCodeSpread,
      * run this and it should fail. */
     @Test

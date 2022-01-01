@@ -28,9 +28,10 @@ public class InsertRandomSpeedTest {
             System.out.print("\nEnter # strings to insert into the maps: ");
             int N = waitForPositiveInt(input);
             timeRandomMap61B(new ULLMap<>(), N, L);
+            timeRandomMap61B(new BSTMap2<>(), N, L);
             timeRandomMap61B(new BSTMap<>(), N, L);
             timeRandomTreeMap(new TreeMap<>(), N, L);
-
+            timeRandomHash(new SeparateChainingHashST<>(), N, L);
             System.out.print("\nWould you like to try more timed-tests? (y/n)");
             repeat = input.nextLine();
         } while (!repeat.equalsIgnoreCase("n") && !repeat.equalsIgnoreCase("no"));
@@ -72,6 +73,16 @@ public class InsertRandomSpeedTest {
         }
         return sw.elapsedTime();
     }
+    public static double insertRandom(SeparateChainingHashST<String, Integer> schst, int N, int L) {
+        Stopwatch sw = new Stopwatch();
+        String s = "cat";
+        for (int i = 0; i < N; i++) {
+            s = StringUtils.randomString(L);
+            schst.put(s, new Integer(i));
+        }
+        return sw.elapsedTime();
+    }
+
 
     /**
         Attempts to insert N random strings of length L into map,
@@ -82,6 +93,17 @@ public class InsertRandomSpeedTest {
         try {
             double mapTime = insertRandom(map, N, L);
             System.out.printf(map.getClass() + ": %.2f sec\n", mapTime);
+        } catch (StackOverflowError e) {
+            printInfoOnStackOverflow(N, L);
+        } catch (RuntimeException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void timeRandomHash(SeparateChainingHashST<String, Integer> schst, int N, int L) {
+        try {
+            double mapTime = insertRandom(schst, N, L);
+            System.out.printf(schst.getClass() + ": %.2f sec\n", mapTime);
         } catch (StackOverflowError e) {
             printInfoOnStackOverflow(N, L);
         } catch (RuntimeException e) {

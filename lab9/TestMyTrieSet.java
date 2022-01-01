@@ -58,6 +58,4 @@ public class TestMyTrieSet {
         jh61b.junit.TestRunner.runTests(TestMyTrieSet.class);
     }
 
-
-
 }
